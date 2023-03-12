@@ -1,0 +1,670 @@
+body
+{
+	background-color: #181a29;
+	margin: 0;
+    color: white;
+    user-select: none;
+}
+
+.conteiner
+{
+    width: 1000px;
+    height: 650px;
+    margin: 30px auto;
+    padding: 0px;
+    overflow: hidden;
+    position: relative;
+    
+}
+
+.logo
+{
+    width: 300px;
+    height: 50px;
+    margin: 80px auto;
+    background-color: #181a29;
+    border: 3px solid #e1134d;
+    letter-spacing: 6px;
+    z-index: 999;
+    padding: 0px;
+}
+
+p
+{
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-family: 'Saira Stencil One', cursive;
+    font-size: 30px;
+    margin: 0px;
+    text-align: center;
+    position: relative;
+    left: 3px;
+    line-height: 170%;
+}
+
+.semi_circle
+{
+    display: block;
+    position: relative;
+    z-index: -1;
+    width: 180px;
+    height: 160px;
+    border: 3px solid #e1134d;
+    border-radius: 100%;
+    left: 19%;
+    top: -215%;
+}
+
+.plansza1, .plansza2, .plansza3, .plansza4, .plansza5
+{
+    width: 1000px;
+    position: absolute;
+    height: 650px;
+    margin: 0px;
+    padding: 0px;
+    transition: 1.3s ease all;
+}
+
+.plansza1
+{
+    z-index: 1;
+}
+
+.plansza2
+{
+    transform: translateX(-1000px);
+}
+
+.plansza3
+{
+    transform: translateY(650px);
+}
+
+.plansza4 
+{
+    
+    transform: translateX(1000px);
+}
+
+.plansza5 
+{
+    transform: translateX(2000px);
+}
+
+.sekcja
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.sekcja222
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.sekcja333
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 18px;
+}
+
+.sekcja444
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 17.5px;
+}
+
+.square, .circle
+{
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+    border: 2px solid #40434f;
+    /*font-family: segoe ui;*/
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 29px;
+    text-align: center;
+    line-height: 205%;
+}
+
+.square222, .circle222
+{
+    width: 49.5px;
+    height: 49.5px;
+    margin-right: 20px;
+    border: 2px solid #40434f;
+    /*font-family: segoe ui;*/
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    line-height: 210%;
+}
+
+.square333, .circle333
+{
+    width: 43px;
+    height: 43px;
+    margin-right: 18px;
+    border: 2px solid #40434f;
+    /*font-family: segoe ui;*/
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 21.5px;
+    text-align: center;
+    line-height: 200%;
+}
+
+.square444, .circle444
+{
+    width: 37px;
+    height: 37px;
+    margin-right: 17.5px;
+    border: 2px solid #40434f;
+    /*font-family: segoe ui;*/
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 19px;
+    text-align: center;
+    line-height: 200%;
+}
+
+.square:last-child, .circle:last-child
+{
+    margin-right: 0px;
+}
+
+.square222:last-child, .circle222:last-child
+{
+    margin-right: 0px;
+}
+
+.square333:last-child, .circle333:last-child
+{
+    margin-right: 0px;
+}
+
+.square444:last-child, .circle444:last-child
+{
+    margin-right: 0px;
+}
+
+.circle, .circle222, .circle333, .circle444
+{
+    border-radius: 100%;
+    transition: 0.5s ease all;
+    color: #40434f;
+}
+
+.square, .square222, .square333, .square444
+{
+    transition: 0.5s ease all;
+}
+
+.circle:hover, .circle222:hover, .circle333:hover, .circle444:hover
+{
+    color: white;
+    cursor: pointer;
+    border-color: white;
+    transform: scale(1.05);
+    transition: 0.2s ease all;
+}
+
+.tools
+{
+    width: 350px;
+    height: 650px;
+    margin-top: 30px;
+    margin: 0;
+    position: absolute;
+}
+
+.fa-volume-down, .fa-solid
+{
+    display: block;
+    color: white;
+    font-size: 60px;
+    margin-left: 0px;
+    transition: 0.3s ease all;
+}
+
+.fa-solid
+{
+    font-size: 50px;
+    color: #40434f;
+}
+
+.fa-volume-down:hover, .fa-solid:hover
+{
+    transform: scale(1.07);
+    transition: 0.3s ease all;
+    cursor: pointer;
+}
+
+.fa-solid:hover
+{
+    color: white;
+}
+
+
+.button1
+{
+    width: 440px;
+    height: 100px;
+    font-family: 'Saira Stencil One', cursive;
+    font-size: 35px;
+    text-align: center;
+    line-height: 280%;
+    letter-spacing: 2px;
+    border: 3px solid #40434f;
+    color: #40434f;
+    transition: 0.3s ease all;
+    margin: 0px auto;
+    margin-bottom: 0px;
+    margin-top: 70px;
+}
+
+.button2
+{
+    width: 280px;
+    height: 80px;
+    font-family: 'Saira Stencil One', cursive;
+    font-size: 30px;
+    text-align: center;
+    line-height: 255%;
+    letter-spacing: 2px;
+    border: 3px solid #40434f;
+    color: #40434f;
+    transition: 0.3s ease all;
+    margin: 0px auto;
+    margin-bottom: 0px;
+    margin-top: 50px;
+}
+
+.button1:hover, .button2:hover
+{
+    border-color: white;
+    color: white;
+    transform: scale(1.03);
+    transition: 0.3s ease all;
+    cursor: pointer;
+}
+
+.center
+{
+    margin-top: 30px;
+}
+
+.timer
+{
+    width: 100%;
+    height: 200px;
+    /*font-family: segoe ui;*/
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 7px;
+    text-align: center;
+    line-height: 300%;
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.volume
+{
+    width: 70px;
+    text-align: center;
+    height: 70px;
+    padding: 10px;
+    line-height: 635%;
+    position: fixed;
+    margin-bottom: 0px;
+    bottom: 0px;
+    z-index: 3;
+}
+
+.zoom
+{
+    width: 125px;
+    text-align: center;
+    height: 65px;
+    padding: 10px;
+    padding-right: 15px;
+    padding-bottom: 0px;
+    padding-top: 10px;
+    line-height: 635%;
+    position: fixed;
+    margin-bottom: 0px;
+    bottom: 0px;
+    z-index: 3;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer
+{
+    font-family: 'Saira Stencil One', cursive;
+    font-size: 25px;
+    color: #40434f;
+    letter-spacing: 2px;
+    position: fixed;
+    bottom: 0px;
+    text-align: center;
+    width: 100%;
+    padding: 5px 0px;
+    background-color: #181a29;
+    z-index: 2;
+}
+
+.game1, .game2, .game3, .game4
+{
+    width: 650px;
+    /*border: 1px solid white;*/
+    height: 650px;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+}
+
+.game1
+{
+    transform: translateY(-653px);
+}
+
+.game2
+{
+    transform: translateY(-653px);
+}
+
+.game3
+{
+    transform: translateY(-653px);
+}
+
+.game4
+{
+    transform: translateY(-653px);
+}
+
+h1
+{
+    font-family: 'Saira Stencil One', cursive;
+    display: block;
+    font-size: 35px;
+    letter-spacing: 2px;
+    text-align: center;
+    font-weight: 100;
+    margin-bottom: 3px;
+    margin-top: 14px;
+}
+
+.flex
+{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    justify-content: space-around;
+}
+
+.flex2
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex2 .button1
+{
+    margin-top: 20px;
+    height: 80px;
+    width: 300px;
+    font-size: 35px;
+    line-height: 80px;
+}
+
+.flex .button1
+{
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    margin-top: 0px;
+    text-align: center;
+    line-height: 116px;
+}
+
+.leaders
+{
+    width: 880px;
+    height: 240px;
+    position: relative;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+.leaders_5x5, .leaders_6x6, .leaders_7x7, .leaders_8x8
+{
+    display: flex;
+    justify-content: center;
+    height: 240px;
+    margin: 0px;
+    overflow: hidden;
+    justify-content: space-between;
+    width: 880px;
+    position: absolute;
+    transition: 1.3s ease all;
+}
+
+.leaders_6x6
+{
+    transform: translateX(930px);
+}
+
+.leaders_7x7
+{
+    transform: translateX(1860px);
+}
+
+.leaders_8x8
+{
+    transform: translateX(2790px);
+}
+
+.leaders_5x5_1-4, .leaders_5x5_1-9, .leaders_5x5_1-19, .leaders_6x6_1-4, .leaders_6x6_1-9, .leaders_6x6_1-19, .leaders_7x7_1-4, .leaders_7x7_1-9, .leaders_7x7_1-19, .leaders_8x8_1-4, .leaders_8x8_1-9, .leaders_8x8_1-19
+{
+    width: 260px;
+    height: 220px;
+    overflow: hidden;
+}
+
+.leaders_head
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    width: 260px;
+    font-weight: 1000;
+    letter-spacing: 2px;
+    color: rgb(239, 217, 139);
+}
+
+.leaders_center
+{
+    display: flex;
+    margin-top: 16.4px;
+}
+
+.leaders_name
+{
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    width: 70%;
+}
+
+.leaders_time
+{
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    width: 30%;
+    text-align: right;
+}
+
+.winner
+{
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    background-color: #181a29;
+    z-index: 2;
+    margin-top: 0px;
+    border: 2px solid white;
+    top: 180px;
+    right: 251px;
+    transition: 1.3s ease all;
+    filter: opacity(0);
+    pointer-events: none;
+}
+
+.winner_center
+{
+    font-family: 'Saira Stencil One', cursive;
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(239, 217, 139);
+    transform: scale(1) !important;
+    transition-delay: 0s !important;
+    font-weight: 100;
+}
+
+.winner_description
+{
+    font-size: 18px;
+    font-family: 'Saira Stencil One', cursive;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.winner_name
+{
+    display: block;
+    margin-top: 48px;
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    border: none;
+    border-bottom: 2px solid white;
+    background-color: #181a29;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-align: center;
+    width: 170px;
+    height: 30px;
+    color: white;
+}
+
+.winner_name:focus
+{
+    outline: none;
+    border-bottom: 2px solid white;
+    border-top: none;
+}
+
+.winner_close
+{
+    width: 140px;
+    height: 50px;
+    margin-top: 40px;
+    font-size: 25px;
+    line-height: 50px;
+}
+
+.winner_close2
+{
+    width: 200px !important;
+}
+
+.winner_flex
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.rules
+{
+    margin-top: 30px;
+    height: 464px;
+    width: 984px;
+    overflow-y: scroll;
+    font-size: 28px;
+    font-family: 'Saira Stencil One', cursive;
+    letter-spacing: 2px;
+    text-align: center;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-top: 3px solid #40434f;
+    border-bottom: 3px solid #40434f;
+}
+
+::-webkit-scrollbar 
+{
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb 
+{
+    background: #e1134d; 
+    border-radius: 10px;
+}
+
+::-moz-scrollbar 
+{
+    width: 10px;
+}
+
+::-moz-scrollbar-thumb 
+{
+    background: #e1134d; 
+    border-radius: 10px;
+}
+
+::-ms-scrollbar 
+{
+    width: 10px;
+}
+
+::-ms-scrollbar-thumb 
+{
+    background: #e1134d; 
+    border-radius: 10px;
+}
+
+@media all and (max-height: 935px)
+{
+    .footer
+    {
+        display: block;
+        margin-top: 20px;
+        position: relative;
+    }
+}
