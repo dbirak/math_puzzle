@@ -19,8 +19,8 @@ localhost/{dir_name}
 ## Screenshots
 
 ![MATH-PUZZLE](https://user-images.githubusercontent.com/41111309/224544411-b404dcaa-9cde-4155-85ff-9842657905e3.png)
-![download](https://user-images.githubusercontent.com/41111309/224544462-4b311066-04f1-473c-bc9b-2d39daae4ac1.png)
+![image](https://user-images.githubusercontent.com/41111309/224545630-52b52db3-737b-4c81-bfb1-a95c6833b324.png)
 ![image](https://user-images.githubusercontent.com/41111309/224544935-317ea6cb-3b4d-4be8-83b0-fac0001c78fc.png)
-![download](https://user-images.githubusercontent.com/41111309/224544559-2260aef4-eae1-4197-9865-74870598574f.png)
-![download](https://user-images.githubusercontent.com/41111309/224544625-faf386c5-e466-4e88-a10e-3cd527a62132.png)
+![image](https://user-images.githubusercontent.com/41111309/224545596-5ce7c4d4-11a5-44e7-8079-daa5705f03b3.png)
+![image](https://user-images.githubusercontent.com/41111309/224545737-77405bc6-f7e6-4780-b668-5aefd90e79a1.png)
 ![download](https://user-images.githubusercontent.com/41111309/224544672-07279723-3ed5-40c4-be66-adf09bb1b055.png)
